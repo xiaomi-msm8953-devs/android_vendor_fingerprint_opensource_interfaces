@@ -5,7 +5,9 @@ hidl_interface {
     root: "com.fingerprints",
     system_ext_specific: true,
     srcs: [
+        "IFingerprintEngineering.hal",
         "IFingerprintNavigation.hal",
+        "IFingerprintSensorTest.hal",
     ],
     interfaces: [
         "android.hidl.base@1.0",
