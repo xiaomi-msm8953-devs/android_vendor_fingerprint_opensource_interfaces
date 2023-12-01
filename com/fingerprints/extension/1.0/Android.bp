@@ -5,8 +5,11 @@ hidl_interface {
     root: "com.fingerprints",
     system_ext_specific: true,
     srcs: [
+        "IFingerprintAuthenticator.hal",
         "IFingerprintEngineering.hal",
         "IFingerprintNavigation.hal",
+        "IFingerprintOptical.hal",
+        "IFingerprintSenseTouch.hal",
         "IFingerprintSensorTest.hal",
     ],
     interfaces: [
