@@ -11,11 +11,5 @@ hidl_interface {
     interfaces: [
         "android.hidl.base@1.0",
     ],
-    gen_java: false,
-}
-
-cc_library_shared {
-    name: "libvendor.goodix.hardware.fingerprint@1.0",
-    shared_libs: ["vendor.goodix.hardware.fingerprint@1.0"],
-    vendor_available: true,
+    gen_java: true,
 }

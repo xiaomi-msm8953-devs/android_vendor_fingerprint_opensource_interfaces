@@ -11,8 +11,8 @@ hidl_interface {
         "IFingerprintCalibration.hal",
         "IFingerprintEngineering.hal",
         "IFingerprintNavigation.hal",
-        "IFingerprintOpticalCallback.hal",
         "IFingerprintOptical.hal",
+        "IFingerprintOpticalCallback.hal",
         "IFingerprintRecalibration.hal",
         "IFingerprintSenseTouch.hal",
         "IFingerprintSensorTest.hal",
@@ -27,5 +27,5 @@ hidl_interface {
     interfaces: [
         "android.hidl.base@1.0",
     ],
-    gen_java: false,
+    gen_java: true,
 }
